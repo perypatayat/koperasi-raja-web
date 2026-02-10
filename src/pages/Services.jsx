@@ -1,5 +1,6 @@
 import { Car, Package, Smartphone, Clock, Shield, MapPin, CreditCard } from "lucide-react";
 import SectionTitle from "../components/SectionTitle";
+import { Link } from "react-router-dom";
 
 const services = [
   {
@@ -143,9 +144,9 @@ const Services = () => {
           </div>
 
           <div className='text-center mt-12'>
-            <a href='/contact' className='btn-primary inline-flex items-center'>
+            <Link to='/contact' className='btn-primary inline-flex items-center'>
               Daftar Sekarang
-            </a>
+            </Link>
           </div>
         </div>
       </section>
