@@ -23,7 +23,7 @@ const features = [
   {
     icon: FileText,
     title: "Dokumen Digital",
-    description: "Pengelolaan dokumen secara terpusat dan aman. Semua文件 selalu tersedia kapan saja.",
+    description: "Pengelolaan dokumen secara terpusat dan aman. Semua selalu tersedia kapan saja.",
     color: "bg-orange-500",
   },
   {
